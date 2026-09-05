@@ -1,0 +1,214 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "npc_kalina_212.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Buy": [
+        {
+          "File": "motions/buy.motion3.json"
+        }
+      ],
+      "Buy1": [
+        {
+          "File": "motions/buy_1.motion3.json"
+        }
+      ],
+      "Buy2": [
+        {
+          "File": "motions/buy_2.motion3.json"
+        }
+      ],
+      "Click": [
+        {
+          "File": "motions/click.motion3.json"
+        }
+      ],
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_02.motion3.json"
+        },
+        {
+          "File": "motions/wait_1_idle_02.motion3.json"
+        }
+      ],
+      "Enter": [
+        {
+          "File": "motions/enter.motion3.json"
+        }
+      ],
+      "Entershop": [
+        {
+          "File": "motions/enter_shop.motion3.json"
+        }
+      ],
+      "Kalina004": [
+        {
+          "File": "motions/kalina_004.motion3.json"
+        }
+      ],
+      "Kalina014": [
+        {
+          "File": "motions/kalina_014.motion3.json"
+        }
+      ],
+      "Kalina024": [
+        {
+          "File": "motions/kalina_024.motion3.json"
+        }
+      ],
+      "Kalina025": [
+        {
+          "File": "motions/kalina_025.motion3.json"
+        }
+      ],
+      "Kalina027": [
+        {
+          "File": "motions/kalina_027.motion3.json"
+        }
+      ],
+      "Kalina030": [
+        {
+          "File": "motions/kalina_030.motion3.json"
+        }
+      ],
+      "Kalina035": [
+        {
+          "File": "motions/kalina_035.motion3.json"
+        }
+      ],
+      "Kalina037": [
+        {
+          "File": "motions/kalina_037.motion3.json"
+        }
+      ],
+      "Kalina043": [
+        {
+          "File": "motions/kalina_043.motion3.json"
+        }
+      ],
+      "Kalina054": [
+        {
+          "File": "motions/kalina_054.motion3.json"
+        }
+      ],
+      "Levelup": [
+        {
+          "File": "motions/levelup.motion3.json"
+        }
+      ],
+      "Login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "Lvup": [
+        {
+          "File": "motions/LVup.motion3.json"
+        }
+      ],
+      "Mall01": [
+        {
+          "File": "motions/mall_01.motion3.json"
+        }
+      ],
+      "Mall02": [
+        {
+          "File": "motions/mall_02.motion3.json"
+        }
+      ],
+      "Mall03": [
+        {
+          "File": "motions/mall_03.motion3.json"
+        }
+      ],
+      "Mall04": [
+        {
+          "File": "motions/mall_04.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_2.motion3.json"
+        },
+        {
+          "File": "motions/wait_3.motion3.json"
+        }
+      ],
+      "TapHead": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        },
+        {
+          "File": "motions/touch_2.motion3.json"
+        }
+      ],
+      "TapBody": [
+        {
+          "File": "motions/touch_3.motion3.json"
+        },
+        {
+          "File": "motions/touch_arm.motion3.json"
+        }
+      ],
+      "TapLeg": [
+        {
+          "File": "motions/touch_breast.motion3.json"
+        },
+        {
+          "File": "motions/touch_head.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY",
+        "ParamMouthForm"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaHEAD",
+      "Name": "head"
+    },
+    {
+      "Id": "HitAreaBODY",
+      "Name": "body"
+    },
+    {
+      "Id": "HitAreaLEG",
+      "Name": "leg"
+    }
+  ]
+}

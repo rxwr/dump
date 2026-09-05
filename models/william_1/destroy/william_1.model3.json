@@ -1,0 +1,64 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "william_1.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Combo1": [
+        {
+          "File": "motions/combo1.motion3.json"
+        }
+      ],
+      "Combo2": [
+        {
+          "File": "motions/combo2.motion3.json"
+        }
+      ],
+      "Combo3": [
+        {
+          "File": "motions/combo3.motion3.json"
+        }
+      ],
+      "Idle": [
+        {
+          "File": "motions/daiji1.motion3.json"
+        },
+        {
+          "File": "motions/daiji2.motion3.json"
+        },
+        {
+          "File": "motions/daiji3.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 24.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthForm"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeLOpen2"
+      ]
+    }
+  ],
+  "HitAreas": []
+}

@@ -1,0 +1,124 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "dp12_8601.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Gls1": [
+        {
+          "File": "motions/GLS_1.motion3.json"
+        }
+      ],
+      "Gls2": [
+        {
+          "File": "motions/GLS_2.motion3.json"
+        }
+      ],
+      "Login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        }
+      ],
+      "Special": [
+        {
+          "File": "motions/wedding.motion3.json"
+        }
+      ],
+      "TapGls": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        },
+        {
+          "File": "motions/touch_2.motion3.json"
+        }
+      ],
+      "TapGls2": [
+        {
+          "File": "motions/touch_3.motion3.json"
+        }
+      ],
+      "TapHead": [
+        {
+          "File": "motions/touch_4.motion3.json"
+        }
+      ],
+      "TapBody": [
+        {
+          "File": "motions/touch_5.motion3.json"
+        }
+      ],
+      "TapLeg": [
+        {
+          "File": "motions/wedding_touch.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY",
+        "ParamMouthForm",
+        "ParamMouthForm2"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaGLS",
+      "Name": "gls"
+    },
+    {
+      "Id": "HitAreaGLS2",
+      "Name": "gls2"
+    },
+    {
+      "Id": "HitAreaHEAD",
+      "Name": "head"
+    },
+    {
+      "Id": "HitAreaBODY",
+      "Name": "body"
+    },
+    {
+      "Id": "HitAreaLEG",
+      "Name": "leg"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "88type_1809.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "Motou01": [
+        {
+          "File": "motions/motou_01.motion3.json"
+        }
+      ],
+      "Motou02": [
+        {
+          "File": "motions/motou_02.motion3.json"
+        }
+      ],
+      "Motou03": [
+        {
+          "File": "motions/motou_03.motion3.json"
+        }
+      ],
+      "Moxiong01": [
+        {
+          "File": "motions/moxiong_01.motion3.json"
+        }
+      ],
+      "Moxiong02": [
+        {
+          "File": "motions/moxiong_02.motion3.json"
+        }
+      ],
+      "Moxiong03": [
+        {
+          "File": "motions/moxiong_03.motion3.json"
+        }
+      ],
+      "Newyear": [
+        {
+          "File": "motions/newyear.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Shoucase": [
+        {
+          "File": "motions/shoucase.motion3.json"
+        }
+      ],
+      "Shuohua01": [
+        {
+          "File": "motions/shuohua_01.motion3.json"
+        }
+      ],
+      "Shuohua02": [
+        {
+          "File": "motions/shuohua_02.motion3.json"
+        }
+      ],
+      "Shuohua03": [
+        {
+          "File": "motions/shuohua_03.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthForm",
+        "ParamMouthOpenY"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaLeg",
+      "Name": "leg"
+    },
+    {
+      "Id": "HitAreaBody",
+      "Name": "body"
+    },
+    {
+      "Id": "HitAreaHead",
+      "Name": "head"
+    }
+  ]
+}

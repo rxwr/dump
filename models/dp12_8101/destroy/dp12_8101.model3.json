@@ -1,0 +1,119 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "dp12_8101.moc3",
+    "Textures": [
+      "model.2048/texture_00.png",
+      "model.2048/texture_01.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "TapBodyb": [
+        {
+          "File": "motions/touch_2A.motion3.json"
+        }
+      ],
+      "TapBodya": [
+        {
+          "File": "motions/touch_2B.motion3.json"
+        }
+      ],
+      "TapFoot": [
+        {
+          "File": "motions/touch_3A.motion3.json"
+        }
+      ],
+      "TapLeg": [
+        {
+          "File": "motions/touch_3B.motion3.json"
+        }
+      ],
+      "TapArmb": [
+        {
+          "File": "motions/touch_4.motion3.json"
+        }
+      ],
+      "TapArma": [
+        {
+          "File": "motions/touch_5.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY",
+        "ParamMouthForm"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen",
+        "ParamJTEyeOpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaBodyB",
+      "Name": "bodyb"
+    },
+    {
+      "Id": "HitAreaBodyA",
+      "Name": "bodya"
+    },
+    {
+      "Id": "HitAreaFoot",
+      "Name": "foot"
+    },
+    {
+      "Id": "HitAreaLeg",
+      "Name": "leg"
+    },
+    {
+      "Id": "HitAreaArmB",
+      "Name": "armb"
+    },
+    {
+      "Id": "HitAreaArmA",
+      "Name": "arma"
+    },
+    {
+      "Id": "HitAreaHead",
+      "Name": "head"
+    },
+    {
+      "Id": "HitAreaBody",
+      "Name": "body"
+    }
+  ]
+}

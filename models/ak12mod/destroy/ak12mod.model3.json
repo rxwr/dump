@@ -1,0 +1,52 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "ak12mod.moc3",
+    "Textures": [
+      "ak-12 \u6539\u9020-\u5927\u7834.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Scene1": [
+        {
+          "File": "motions/Scene1.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreabody",
+      "Name": "body"
+    }
+  ]
+}

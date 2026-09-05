@@ -1,0 +1,108 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "wa2000_306.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        }
+      ],
+      "Special": [
+        {
+          "File": "motions/wedding.motion3.json"
+        }
+      ],
+      "Tap_leg": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        },
+        {
+          "File": "motions/touch_2.motion3.json"
+        },
+        {
+          "File": "motions/touch_3.motion3.json"
+        }
+      ],
+      "Tap_body": [
+        {
+          "File": "motions/touch_4.motion3.json"
+        },
+        {
+          "File": "motions/touch_5.motion3.json"
+        }
+      ],
+      "Tap_head": [
+        {
+          "File": "motions/touch_Halloween.motion3.json"
+        },
+        {
+          "File": "motions/wedding_touch.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthForm",
+        "ParamMouthOpenY",
+        "ParamMouthOpenX"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitArea_leg",
+      "Name": "_leg"
+    },
+    {
+      "Id": "HitArea_body",
+      "Name": "_body"
+    },
+    {
+      "Id": "HitArea_head",
+      "Name": "_head"
+    }
+  ]
+}

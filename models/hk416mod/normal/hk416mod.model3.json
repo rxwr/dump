@@ -1,0 +1,146 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "hk416mod.moc3",
+    "Textures": [
+      "model.2048/texture_00.png",
+      "model.2048/texture_01.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        }
+      ],
+      "Special": [
+        {
+          "File": "motions/wedding.motion3.json"
+        }
+      ],
+      "TapHead1": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        }
+      ],
+      "TapHead2": [
+        {
+          "File": "motions/touch_2.motion3.json"
+        }
+      ],
+      "TapBody1": [
+        {
+          "File": "motions/touch_3.motion3.json"
+        }
+      ],
+      "TapBody2": [
+        {
+          "File": "motions/touch_4.motion3.json"
+        }
+      ],
+      "TapLeg1": [
+        {
+          "File": "motions/touch_5.motion3.json"
+        }
+      ],
+      "TapDrag2": [
+        {
+          "File": "motions/touch_6.motion3.json"
+        }
+      ],
+      "TapDrag1": [
+        {
+          "File": "motions/touch_7.motion3.json"
+        }
+      ],
+      "TapLeg2": [
+        {
+          "File": "motions/wedding_touch.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthForm",
+        "ParamMouthOpenY",
+        "ParamMouthOpenX"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaHead1",
+      "Name": "head1"
+    },
+    {
+      "Id": "HitAreaHead2",
+      "Name": "head2"
+    },
+    {
+      "Id": "HitAreaBody1",
+      "Name": "body1"
+    },
+    {
+      "Id": "HitAreaBody2",
+      "Name": "body2"
+    },
+    {
+      "Id": "HitAreaLeg1",
+      "Name": "leg1"
+    },
+    {
+      "Id": "HitAreaDrag2",
+      "Name": "drag2"
+    },
+    {
+      "Id": "HitAreaDrag1",
+      "Name": "drag1"
+    },
+    {
+      "Id": "HitAreaLeg2",
+      "Name": "leg2"
+    },
+    {
+      "Id": "HitAreaDrag1B",
+      "Name": "drag1b"
+    }
+  ]
+}

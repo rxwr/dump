@@ -1,0 +1,90 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "g36c_1202.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Broken": [
+        {
+          "File": "motions/broken.motion3.json"
+        }
+      ],
+      "Broken02": [
+        {
+          "File": "motions/broken_02.motion3.json"
+        }
+      ],
+      "Idle": [
+        {
+          "File": "motions/daiji01_SHOWCACE.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_p.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_01.motion3.json"
+        }
+      ],
+      "Special": [
+        {
+          "File": "motions/wedding_01.motion3.json"
+        },
+        {
+          "File": "motions/wedding_02.motion3.json"
+        },
+        {
+          "File": "motions/wedding_03.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthForm",
+        "ParamMouthOpenY"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaBody",
+      "Name": "body"
+    },
+    {
+      "Id": "HitAreaHead",
+      "Name": "head"
+    }
+  ]
+}

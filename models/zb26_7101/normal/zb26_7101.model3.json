@@ -1,0 +1,124 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "zb26_7101.moc3",
+    "Textures": [
+      "model.2048/texture_00.png"
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        }
+      ],
+      "Login1": [
+        {
+          "File": "motions/login_1.motion3.json"
+        }
+      ],
+      "Repeat": [
+        {
+          "File": "motions/repeat.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "motions/shake.motion3.json"
+        }
+      ],
+      "Wait": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        }
+      ],
+      "Special": [
+        {
+          "File": "motions/wedding.motion3.json"
+        }
+      ],
+      "TapLeg": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        }
+      ],
+      "TapLeg2": [
+        {
+          "File": "motions/touch_2.motion3.json"
+        }
+      ],
+      "TapArm": [
+        {
+          "File": "motions/touch_3.motion3.json"
+        }
+      ],
+      "TapBody": [
+        {
+          "File": "motions/touch_4.motion3.json"
+        }
+      ],
+      "TapHead": [
+        {
+          "File": "motions/touch_5.motion3.json"
+        }
+      ],
+      "TapArm2": [
+        {
+          "File": "motions/wedding_touch.motion3.json"
+        }
+      ]
+    },
+    "Layout": {
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0,
+      "Scale": 18.0,
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY",
+        "ParamMouthForm"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitAreaLeg",
+      "Name": "leg"
+    },
+    {
+      "Id": "HitAreaLeg2",
+      "Name": "leg2"
+    },
+    {
+      "Id": "HitAreaArm",
+      "Name": "arm"
+    },
+    {
+      "Id": "HitAreaBody",
+      "Name": "body"
+    },
+    {
+      "Id": "HitAreaHead",
+      "Name": "head"
+    },
+    {
+      "Id": "HitAreaArm2",
+      "Name": "arm2"
+    }
+  ]
+}
